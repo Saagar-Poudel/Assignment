@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    margin: 22px;
+    text-align: center;
+}
+
+.container {
+    margin-top: 32px;
+    margin-left: 22px;
+    margin-right: 22px;
+}
+
+.item {
+    border: 2px solid black;
+    margin: 8px;
+    float: left;
+    width: 31%;
+    background-color: gray;
+    height: 50%;
+
+
+}
+
+.item h3 {
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 30%;
+    text-align: center;
+    float: right;
+
+}
+
+.content {
+    margin: 32px;
+}
+
+.first h3 {
+    background-color: rgb(179, 100, 113);
+}
+
+.second h3 {
+    background-color: rgb(230, 13, 49);
+    color: white;
+}
+
+.third h3 {
+    background-color: rgb(225, 233, 137);
+}
+
+@media(max-width:991px)and (min-width:768px) {
+    .item {
+        width: 43%;
+    }
+
+    .third {
+        width: 88%;
+    }
+}
+@media(max-width:767px) {
+    .item {
+        width: 100%;
+    }
+ 
+}
